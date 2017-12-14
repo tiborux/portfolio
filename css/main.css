@@ -84,3 +84,36 @@ a:hover { color: #111; text-decoration: underline; }
 }
 
 .me__section { position: relative; }
+
+.me__title{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 27px;
+}
+
+.me__item{
+    text-align: center;
+}
+.me__item__photo{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 130px;
+}
+
+.me__text{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.one-third.column {
+    float: left;
+    width: 50%;
+}
+
+@media (max-width: 600px) {
+    .one-third.column {
+        width: 100%;
+    }
+}
