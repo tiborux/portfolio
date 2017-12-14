@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* Reset basic elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+/** Basic styling */
+body { font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #111; background-color: #eee; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; }
+
+/** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+
+/** Links */
+a { color: #2a7ae2; text-decoration: none; }
+a:visited { color: #1756a9; }
+a:hover { color: #111; text-decoration: underline; }
+
+.header { 
+    height: 100vh; 
+    border: none; 
+    background: linear-gradient(180deg, rgba(32, 32, 32, 0.93), rgba(78, 78, 78, 0.93)), url("../images/fondo.jpg") no-repeat center center fixed; 
+    background-size: cover; 
+    text-align: center; 
+    color: white; 
+}
+
+.intro { 
+    position: absolute; 
+    top: 50%; left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 90%; 
+    font-size: 27px; 
+    text-align: center; 
+    opacity: .85; 
+    
+}
+@media screen and (max-width: 400px) { .intro { font-size: 22px; } }
+
+.intro__name { 
+    font-size: 70px; 
+    line-height: 1.21;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase; 
+    font-weight: 700; }
+@media screen and (max-width: 400px) { .intro__name { font-size: 50px; } }
+
+.intro__text { 
+    font-family: "Montserrat", serif; 
+    opacity: 0.75;
+}
+
+.intro__contact { 
+    display: inline-block; 
+    font-family: "Montserrat", sans-serif; 
+    border-radius: 50px; 
+    font-size: 16px;
+    margin: 30px 0;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100px;
+    border: solid rgb(254, 215, 102) 2px;
+    padding: 10px 25px; 
+    color: white;
+}
+
+.intro__contact:hover { 
+    color: black;
+    background: rgb(254, 215, 102); 
+    text-decoration: none; 
+    font-weight: 1000;
+}
+
+.page-scroll>a {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10px;
+    width: 300px;
+    opacity: .60;
+    color: white;
+}
+.page-scroll>a:hover {
+    color: white;
+    opacity: .95;
+    text-decoration: none; 
+}
+
+.me__section { position: relative; }
