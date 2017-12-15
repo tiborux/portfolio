@@ -149,6 +149,12 @@ hr{
     padding-top: 5px;
     color: #9a9a9a;
 }
+@media (max-width: 700px) {
+    .studies__item__text {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
 
 .one-third.column {
     padding-top:35px;
