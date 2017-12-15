@@ -83,15 +83,15 @@ a:hover { color: #111; text-decoration: underline; }
     text-decoration: none; 
 }
 
-.me__section { position: relative; }
+.studies__section { position: relative; }
 
-.me__title{
+.studies__title{
     text-align: center;
     padding-top: 25px;
     font-size: 40px;
     font-family: "Montserrat", sans-serif; 
 }
-.me__subtitle{
+.studies__subtitle{
     text-align: center;
     font-size: 15px;
     color: #524e4d;
@@ -100,7 +100,7 @@ a:hover { color: #111; text-decoration: underline; }
     padding-right:150px;
 }
 @media (max-width: 800px) {
-    .me__subtitle {
+    .studies__subtitle {
         padding-left: 10px;
         padding-right:10px;
     }
@@ -115,24 +115,33 @@ a:hover { color: #111; text-decoration: underline; }
      color:rgb(254, 215, 102);
      background-color:rgb(254, 215, 102);
 }
+.separator.item{
+    width: 35px;
+    text-align:center;
+     margin: 0 auto;
+     height:3px; 
+     border:none; 
+     color:rgb(254, 215, 102);
+     background-color:rgb(254, 215, 102);
+}
 hr{
     color:white;    
 }
-.me__item__title{
+.studies__item__title{
     padding-top: 15px;
     text-align: center;
     font-size: 25px;
     font-weight: 900;
     font-family: "Montserrat", sans-serif; 
 }
-.me__item__photo{
+.studies__item__photo{
     display: block;
     margin: 0 auto;
     width: 200px;
     height: 100px;
 }
 
-.me__item__text{
+.studies__item__text{
     font-family: "Montserrat", sans-serif; 
     text-align: center;
     padding-left: 100px;
