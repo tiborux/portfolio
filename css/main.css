@@ -179,7 +179,7 @@ hr{
 .aptitudes__section { position: relative;background-color: white; padding-bottom: 320px; }
 @media (max-width: 600px) {
     .aptitudes__section  {
-       padding-bottom: 800px;
+       padding-bottom: 1000px;
     }
 }
 
@@ -253,7 +253,7 @@ footer{
     line-height: 1.8;
     
 }
-.footer__social__links a{
+.footer__social__links__item{
     display: inline-block;
     color: rgba(255, 255, 255, 0.511);
     text-decoration: none;
@@ -265,7 +265,10 @@ footer{
     border-radius: 50px;
     transition: all .3s ease-in-out;
 }
-.footer__social__links a:hover{
+.footer__social__links__item:hover{
     color: white;
     background-color: rgba(0, 0, 0, 0.518);
+}
+.footer__social__links__item:visited {
+    color: white;
 }
