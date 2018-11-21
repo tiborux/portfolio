@@ -22,16 +22,20 @@ a:hover { color: #111; text-decoration: underline; }
     color: white; 
 }
 
-.intro { 
+.intro{ 
     position: absolute; 
     top: 50%; left: 50%; 
     transform: translate(-50%, -50%); 
     width: 90%; 
     font-size: 27px; 
     text-align: center; 
-    opacity: .85; 
-    
+    opacity: .85;
+   
 }
+.intro__section{
+         animation: fadein 4s;
+}
+
 @media screen and (max-width: 400px) { .intro { font-size: 22px; } }
 
 .intro__name { 
@@ -67,6 +71,10 @@ a:hover { color: #111; text-decoration: underline; }
     text-decoration: none; 
     font-weight: 1000;
 }
+.contact-zoom-out {
+    animation: popout 1s ease;
+}
+    
 
 .page-scroll>a {
     position: absolute;
@@ -272,3 +280,17 @@ footer{
 .footer__social__links__item:visited {
     color: white;
 }
+
+/* ANIMATIONS */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2)}
+    to{transform:scale(1)}
+}
+    
